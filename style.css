@@ -43,7 +43,6 @@ a:hover { text-decoration: underline; }
   width: var(--sidebar);
   flex-shrink: 0;
   padding: 48px 32px 48px 0;
-  border-right: 1px solid var(--border);
   position: sticky;
   top: 50px;
   height: calc(100vh - 50px);
@@ -64,6 +63,11 @@ a:hover { text-decoration: underline; }
   max-width: 1000px;
   margin: 0 auto;
   padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .topbar-name {
@@ -78,6 +82,31 @@ a:hover { text-decoration: underline; }
 .topbar-name:hover {
   text-decoration: none;
   opacity: 0.85;
+}
+
+.topbar-nav {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.topbar-nav a {
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.topbar-nav a:hover,
+.topbar-nav a.active {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.topbar-nav a.active {
+  font-weight: 700;
 }
 
 .sidebar .photo {
