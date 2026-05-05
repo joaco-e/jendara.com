@@ -152,10 +152,10 @@ main h2 {
   letter-spacing: 0;
   text-transform: none;
   line-height: 1.15;
-  margin-top: 36px;
-  margin-bottom: 18px;
-  padding-bottom: 0;
-  border-bottom: none;
+  margin-top: 56px;
+  margin-bottom: 22px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
 }
 
 main h2:first-of-type {
