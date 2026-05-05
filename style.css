@@ -145,7 +145,7 @@ main {
 }
 
 main h2 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", "URW Palladio L", serif;
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--blue);
@@ -180,7 +180,7 @@ main p { margin-bottom: 14px; font-size: 0.95rem; }
 }
 
 .paper-title {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", "URW Palladio L", serif;
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--text);
