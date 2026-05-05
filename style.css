@@ -43,8 +43,8 @@ a:hover { text-decoration: underline; }
   flex-shrink: 0;
   padding: 48px 32px 48px 0;
   position: sticky;
-  top: 50px;
-  height: calc(100vh - 50px);
+  top: 30px;
+  height: calc(100vh - 30px);
   overflow-y: auto;
 }
 
@@ -61,7 +61,7 @@ a:hover { text-decoration: underline; }
 .topbar-inner {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 14px 24px;
+  padding: 6px 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,11 +71,12 @@ a:hover { text-decoration: underline; }
 
 .topbar-name {
   font-family: Palatino, "Palatino Linotype", "Book Antiqua", "URW Palladio L", serif;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--blue);
   text-decoration: none;
   letter-spacing: 0.01em;
+  line-height: 1.2;
 }
 
 .topbar-name:hover {
